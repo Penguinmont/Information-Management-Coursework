@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html ></html>
+<head>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery.jcoverflip.js"></script>
+    <script>
+    jQuery(document).ready(function(){
+        jQuery('#flip').jcoverflip();
+    });
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2019141090448石朝伟PW04</title>
+    <meta name="author" content="338">
+    <meta name="keywords" content="个人介绍，简历，石朝伟">
+    <meta name="robot" content="all">
+    <style>
+    .ui-jcoverflip{
+        position: relative;
+        }
+    .ui-jcoverflip--item{
+        position: absolute;
+        display: block;
+        }
+    #flip .ui-jcoverflip--title{
+        position: absolute;
+        bottom: -30px;
+        width: 100%;
+        text-align:center;
+        color: #ff7f50;
+        }
+    body{
+        /* background-color: #f3f3f3; */
+        background-image: url("img/bj.png");
+    }
+    #d1 img{
+        display: block;
+        width: 300px;
+        height: 400px;
+    }
+    #d3 table tr .edu{
+        color: #4d82e8;
+    }
+    #flip{
+        height: 200px;
+        width: 630px;
+        margin-bottom: 50px;
+    }
+    #flip img{
+        display: block;
+        border: 0;
+        outline: none;
+    }
+    </style>
+</head>
+<body>
+<div id="d1">
+    <img src="img/5.jpg" alt="是我" >
+    <h1>scw</h1>
+    <p> A normal man</p>
+    <p>else: nothing</p>
+</div><!--个人基本信息-->
+<div id="d2">
+    <h2>求学经历</h2>
+    <ol>
+        <li>2019.9-2023.7&nbsp;四川大学信息资源管理学业&nbsp;管理学学士</li>
+        <li>2016.9-2019.7&nbsp;酒钢三中</li>
+        <li>2013.9-2016.7&nbsp;实验中学</li>
+    </ol>
+</div><!---->
+<div id="d3"><!--课表-->  
+    <h2>大一课表</h2>
+    <table border="5">
+        <th></th>
+        <th>周一</th>
+        <th>周二</th>
+        <th>周三</th>
+        <th>周四</th>
+        <th>周五</th>
+        <th>周六</th>
+        <th>周日</th>
+        <tr>
+            <td>第一大节</td>
+            <td></td>
+            <td  class="edu">微积分</td>
+            <td></td>
+            <td></td>
+            <td  class="edu">大学英语</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>第二大节</td>
+            <td></td>
+            <td  class="edu">体育</td>
+            <td></td>
+            <td  class="edu">微积分</td>
+            <td  class="edu">线性代数</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>第三大节</td>
+            <td  class="edu">线性代数</td>
+            <td  class="edu">英语口语</td>
+            <td  class="edu">管理学原理</td>
+            <td  class="edu">信息管理导论</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>第四大节</td>
+            <td  class="edu">大学生心理健康</td>
+            <td></td>
+            <td  class="edu">军事理论</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>第五大节</td>
+            <td></td>
+            <td  class="edu">思想道德和法律基础</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+<div id="d4">
+    <h2>图片秀</h2>
+    <ul id="flip">
+        <li><span></span><img src="img/1.jpg" alt="江安河"></li>
+        <li><span></span><img src="img/2.jpg" alt="宿舍楼"></li>
+        <li><span></span><img src="img/3.jpg" alt="雨后"></li>
+        <li><span></span><img src="img/4.jpg" alt="霞"></li>
+        <li><span></span><img src="img/6.jpg" alt="望江"></li>
+    </ul>
+</body>
+</html>
